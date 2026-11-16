@@ -23,6 +23,12 @@ The release contains generic source code, blank templates and sanitized preferen
 
 The existing external Obsidian assistant and macOS calendar helper are not included. Features requiring them are unavailable without separate installation/configuration. This release is desktop-only because inherited code uses Node.js/Electron; mobile compatibility has not been verified. No guarantee of community-directory acceptance is made.
 
+## File access and optional connections
+
+The desktop workbench can create independent backups outside the vault, in `Workspace-Backups` under the operating system user's home directory. This supports recovery if the vault itself is lost. Backups contain the records and attachments in the workspace; they remain local and are not uploaded by the backup operation. Check this directory when migrating or removing your data.
+
+Optional AI writing uses DeepSeek, Alibaba Cloud Qwen, OpenAI, or the compatible API endpoint you configure. These services may require an account and paid API usage. Video metadata lookup uses YouTube or Bilibili. Opening selected external links contacts their destination; downloading a referenced PDF or image contacts its source. These actions depend on the relevant network service and are not required to install the blank templates.
+
 ## Recovery
 
 Use **恢复上次导入** to restore the last import. Recovery journals remain inside the plugin's `profile-backups` folder and may contain your pre-import settings: they are local runtime data and must never be included in a public release. Removing the plugin does not remove installed templates or settings. Use restore before uninstalling when needed.
