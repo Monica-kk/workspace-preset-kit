@@ -1,7 +1,7 @@
 {
   "id": "workspace-preset-kit",
-  "name": "自媒体工作台",
-  "version": "2.6.1",
+  "name": "Creator Workbench",
+  "version": "2.6.2",
   "minAppVersion": "1.14.0",
   "description": "Organize content research, scripts, brand and product reports with bundled templates and optional vault settings.",
   "author": "Workspace contributors",
