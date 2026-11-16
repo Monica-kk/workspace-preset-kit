@@ -1,0 +1,205 @@
+{
+  "version": "2.6.0",
+  "assets": [
+    {
+      "path": "Workspace/模板（系统）/脚本（HTML模板）.html",
+      "bytes": 11485,
+      "sha256": "67f870fbf48150868c9e5ab9855fbbaf7dc70495b8da2a6db7018d96aa937980"
+    },
+    {
+      "path": "Workspace/模板（系统）/视频拉片模板使用说明.md",
+      "bytes": 4539,
+      "sha256": "09d30d895ec7d6b79a93399650732531f69de4653994c0b31dfeee2d41f19500"
+    },
+    {
+      "path": "Workspace/模板（系统）/卖点（系统）.md",
+      "bytes": 153,
+      "sha256": "f439cb974aed2a0dbaa2fd28239ce2fa8a03e09d434a3b838dcd663cfd6dfafb"
+    },
+    {
+      "path": "Workspace/模板（系统）/品牌报告（HTML模板）.html",
+      "bytes": 18585,
+      "sha256": "c9c1f02aac56a03e98d6fbf97dade0307144e2dbbd199dca2b1565d11d544b50"
+    },
+    {
+      "path": "Workspace/模板（系统）/品牌报告模板使用说明.md",
+      "bytes": 2353,
+      "sha256": "470af9bd9a90a0639ea17841157b319165c0dd0684a9237680734e1b75591e07"
+    },
+    {
+      "path": "Workspace/模板（系统）/总结（系统）.md",
+      "bytes": 153,
+      "sha256": "2a621991aebe317c3ef9264a0d87e51850fa56ee4eb4586e8e729468ef77e84a"
+    },
+    {
+      "path": "Workspace/模板（系统）/脚本（标准结构模板）.json",
+      "bytes": 2107,
+      "sha256": "44443da7d6208fa07601630ef63ad8d867051016ba7bf1c3ab67ebd899a32fd4"
+    },
+    {
+      "path": "Workspace/模板（系统）/兴趣板块（系统）.md",
+      "bytes": 159,
+      "sha256": "2383a504ff3d7eff69e63da91406ccc39cf03b71c1324c0f198c12e2f57ca11e"
+    },
+    {
+      "path": "Workspace/模板（系统）/成分（系统）.md",
+      "bytes": 153,
+      "sha256": "69759c4da364d201e04717923565568ca3f01819805bae9bd72a14836a84456e"
+    },
+    {
+      "path": "Workspace/模板（系统）/产品线（系统）.md",
+      "bytes": 156,
+      "sha256": "b32ee60a9d56e93d7852002339ff3c87eee00e3fde6ba9f41f60d857af683e2c"
+    },
+    {
+      "path": "Workspace/模板（系统）/复盘报告模板使用说明.md",
+      "bytes": 775,
+      "sha256": "13a371a4a2f1684835e5dc9be78726e6aec9c0aa3438ac42ae4387ec8e28a200"
+    },
+    {
+      "path": "Workspace/模板（系统）/产品报告模板使用说明.md",
+      "bytes": 2073,
+      "sha256": "158b58cc6d8b06bfdc43eaabfcd63609a3025d7d9d2126c108b0d5bf9f493f56"
+    },
+    {
+      "path": "Workspace/模板（系统）/产品关联（系统）.md",
+      "bytes": 159,
+      "sha256": "8ac32c5407608ca7cf70287a22a859bd99aed5604aca182a71ec8f9b509b5e6b"
+    },
+    {
+      "path": "Workspace/模板（系统）/品牌（系统）.md",
+      "bytes": 153,
+      "sha256": "b7c53742cf7615d178a5d22625770cd6f0ee07ef0989d30e37e6b924c0c12250"
+    },
+    {
+      "path": "Workspace/模板（系统）/视频拉片（HTML模板）.html",
+      "bytes": 5328,
+      "sha256": "abfa8e661ceabbb00b5e98a35d64a6d049dc162876e2283760b63a3fe48cf248"
+    },
+    {
+      "path": "Workspace/模板（系统）/兴趣记录（系统）.md",
+      "bytes": 159,
+      "sha256": "9cbf4e9368a16d8b407dd2cd472c03e771c7a8e26fd003029d72706dda10c5f7"
+    },
+    {
+      "path": "Workspace/模板（系统）/复盘报告（HTML模板）.html",
+      "bytes": 27144,
+      "sha256": "3f1e20bed7bfad5d134257b839325f62d290f5a893e2f82069612aadaab3015b"
+    },
+    {
+      "path": "Workspace/模板（系统）/产品（系统）.md",
+      "bytes": 153,
+      "sha256": "215bb0ab48edea50cf5758cd8f417279073afc7fde49f0e976db0dd626807969"
+    },
+    {
+      "path": "Workspace/模板（系统）/合作档案（HTML模板）.html",
+      "bytes": 11664,
+      "sha256": "3a15a1dfaca655ed998786d71b1978e07c09ee87708215e74aedd5992b1677f2"
+    },
+    {
+      "path": "Workspace/模板（系统）/产品报告（HTML模板）.html",
+      "bytes": 10403,
+      "sha256": "caefef2f8d40a17375ca60c6ba68373c0d9b95e67e65bad1a2d6f27458a247b7"
+    },
+    {
+      "path": "Workspace/模板（系统）/日程（系统）.md",
+      "bytes": 153,
+      "sha256": "a0a1230fa6c67aa39d01509814c3f116c2fb72b41ac2880ef02ac254b6c396bb"
+    },
+    {
+      "path": "Workspace/模板（系统）/技术（系统）.md",
+      "bytes": 153,
+      "sha256": "f12d68c0d470062e0a0a957f94e728ce02381e712d575c3952f47f6e4460d5a8"
+    },
+    {
+      "path": "Workspace/模板（系统）/语言学习（系统）.md",
+      "bytes": 159,
+      "sha256": "5e512e4333f86b3da7f9477be1dc31293a18913eb4760dc43390f5f25d2bef04"
+    },
+    {
+      "path": "Workspace/模板（系统）/脚本模板使用说明.md",
+      "bytes": 1616,
+      "sha256": "246a90534a632dcca32d19d5f041853a99d34383f29b1e8c45eb01f88ad803e6"
+    },
+    {
+      "path": "Workspace/模板（系统）/视频（系统）.md",
+      "bytes": 153,
+      "sha256": "57a64e93d207cc66e9fa86b3a0506798b688a23dd516c2addd45a0378e5d22aa"
+    },
+    {
+      "path": "Workspace/模板（系统）/资讯（系统）.md",
+      "bytes": 153,
+      "sha256": "c79f2cb72d59805423e4c913bdfec6582cd204b326125923db0b599c6cddd9f3"
+    },
+    {
+      "path": "Workspace/视图（系统）/总结（系统）.base",
+      "bytes": 524,
+      "sha256": "a359f6f19447ae07e37d6cad7b4ba1ee636947d16c1a63f7a467cf51bfa35199"
+    },
+    {
+      "path": "Workspace/视图（系统）/品牌（系统）.base",
+      "bytes": 343,
+      "sha256": "f183ed22597fbb3596c97b3011e8f9f362357ef7cc571df1646241b0ce2d0c2c"
+    },
+    {
+      "path": "Workspace/视图（系统）/日程（系统）.base",
+      "bytes": 524,
+      "sha256": "76c45ab77c9aaebf6499dd59e63679d269616779d08a5f623b3f9794c948ac97"
+    },
+    {
+      "path": "Workspace/视图（系统）/视频（系统）.base",
+      "bytes": 1159,
+      "sha256": "5c007f02f1f8ad095b91a8775b874c551ddccb1eff8adab1ca0736bd0cc0b7cd"
+    },
+    {
+      "path": "Workspace/视图（系统）/兴趣板块（系统）.base",
+      "bytes": 536,
+      "sha256": "280d4a5f6660ed7b4ffaa7a2cfebe102680af9289aa784e801ba7f4455a77abc"
+    },
+    {
+      "path": "Workspace/视图（系统）/资讯（系统）.base",
+      "bytes": 524,
+      "sha256": "96fb1f9cfedc581f8c91c03d047e4acd31aca968a84f9f0f644ff76531c4560d"
+    },
+    {
+      "path": "Workspace/视图（系统）/语言学习（系统）.base",
+      "bytes": 536,
+      "sha256": "dfdd54e35fc48c9243406ac06531c90dbe5130f320502b19caeffba1b7660ba5"
+    },
+    {
+      "path": "Workspace/系统（系统）/模块配置（系统）.json",
+      "bytes": 4563,
+      "sha256": "11b885e7ef8cda5e8e2663dfc14354f340da37486edf0dc78d21cead905c9a27"
+    },
+    {
+      "path": "Workspace/系统（系统）/选项（系统）.json",
+      "bytes": 62,
+      "sha256": "62ace29a0e9cfdf005d476711f4a34342c1f8cb2d3fe3379ed6e19d998587f7c"
+    },
+    {
+      "path": "80 模板/日记.md",
+      "bytes": 91,
+      "sha256": "4d3ea2725a12974cc181ae016dc2a6b96fa80d93e6ab6ab7f732263879c8423f"
+    },
+    {
+      "path": "Workspace/首页.md",
+      "bytes": 46,
+      "sha256": "d38213ef6732c3ff5b85f9fd14ed2bc7a90670c2decc112174330186f0cbea3f"
+    },
+    {
+      "path": ".CONFIG_SNIPPET/workspace-notion.css",
+      "bytes": 3571,
+      "sha256": "529b0e61e24ff31bec997a32c0a8fed3b1e256b0499e4f39d419b3576b78204c"
+    }
+  ],
+  "settingsFiles": [
+    "app.json",
+    "appearance.json",
+    "core-plugins.json",
+    "templates.json",
+    "daily-notes.json",
+    "graph.json",
+    "hotkeys.json"
+  ],
+  "desktopOnly": true
+}

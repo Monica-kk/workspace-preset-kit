@@ -1,0 +1,9 @@
+{
+  "id": "workspace-preset-kit",
+  "name": "Workspace Preset Kit",
+  "version": "2.6.0",
+  "minAppVersion": "1.14.0",
+  "description": "Organize a personal workspace and install bundled templates, styles, and optional vault settings.",
+  "author": "Workspace contributors",
+  "isDesktopOnly": true
+}
