@@ -1,4 +1,4 @@
-# Creator Workbench
+# Qishen Creator Workbench
 
 中文界面名称：自媒体工作台。
 
@@ -6,7 +6,7 @@ A desktop Obsidian workspace with bundled blank report templates, database views
 
 ## Install
 
-Copy `main.js`, `manifest.json`, and `styles.css` into your vault's `.obsidian/plugins/workspace-preset-kit/` folder. Restart Obsidian and enable **Creator Workbench** in Community plugins. First test in an empty vault.
+Copy `main.js`, `manifest.json`, and `styles.css` into your vault's `.obsidian/plugins/workspace-preset-kit/` folder. Restart Obsidian and enable **Qishen Creator Workbench** in Community plugins. First test in an empty vault.
 
 In the plugin settings, choose **安装资源** to add missing templates and views. Choose **应用配置** separately to import editor preferences, appearance, template and daily-note paths, hotkeys, graph defaults, and core-plugin switches. Restart Obsidian afterward. Existing resource files are preserved unless you explicitly enable overwrite. Changing the configuration folder uses the vault's configured location for the installer; some inherited workspace features still assume `.obsidian`.
 
