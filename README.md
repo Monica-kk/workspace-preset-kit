@@ -38,3 +38,15 @@ Use **恢复上次导入** to restore the last import. Recovery journals remain 
 ## Verification
 
 JavaScript syntax and bundle loading were checked. In-memory adapter tests cover preserving existing templates, settings merge, restore, repeated installation, edited-file protection, explicit overwrite and rollback after a simulated write failure. A real Obsidian UI installation has not yet been tested.
+
+## Screenshots / 界面预览
+
+### 首页与模块导航
+
+![自媒体工作台首页与模块导航](./screenshot-home.png)
+
+### 创意内容库
+
+![创意内容库卡片与筛选](./screenshot-content.png)
+
+Screenshots show an existing configured workspace. Displayed records are not bundled with the plugin.
