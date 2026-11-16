@@ -23,11 +23,11 @@ Global settings affect the entire vault. Configuration changes are opt-in. Insta
 
 The release contains generic source code, blank templates and sanitized preferences. It excludes private notes, business records, original attachments, drafts, backups, workspace history, calendar identifiers, credentials and local account configuration. The plugin has no bundled API keys or signed-in session. Normal editing is local. Optional AI features send the selected context to the provider you configure; optional video metadata retrieval contacts the source platform. Review the context before using these features.
 
-The existing external Obsidian assistant and macOS calendar helper are not included. Features requiring them are unavailable without separate installation/configuration. This release is desktop-only because inherited code uses Node.js/Electron; mobile compatibility has not been verified. No guarantee of community-directory acceptance is made.
+External system-calendar integration has been removed. Calendar entries are local vault records; editing or deleting a previously imported entry does not modify its original system-calendar event. The external script-assistant launcher has been removed; manual script editing remains available. This release remains desktop-only because report rendering still uses Node.js crypto and desktop external-link handling; mobile compatibility has not been verified. No guarantee of community-directory acceptance is made.
 
 ## File access and optional connections
 
-The desktop workbench can create independent backups outside the vault, in `Workspace-Backups` under the operating system user's home directory. This supports recovery if the vault itself is lost. Backups contain the records and attachments in the workspace; they remain local and are not uploaded by the backup operation. Check this directory when migrating or removing your data.
+Backups use only Obsidian vault APIs and are written to `工作台备份/` inside the vault. Daily backups are deduplicated; manual backups use separate folders. The backup folder is excluded from its own source set. A completion marker is written only after all copies succeed. Existing external backups are left untouched. Vault-local backups share the vault storage and synchronization fate, so keep a separate external backup for recovery from total vault loss.
 
 Optional AI writing uses DeepSeek, Alibaba Cloud Qwen, OpenAI, or the compatible API endpoint you configure. These services may require an account and paid API usage. Video metadata lookup uses YouTube or Bilibili. Opening selected external links contacts their destination; downloading a referenced PDF or image contacts its source. These actions depend on the relevant network service and are not required to install the blank templates.
 
@@ -50,3 +50,11 @@ JavaScript syntax and bundle loading were checked. In-memory adapter tests cover
 ![创意内容库卡片与筛选](./screenshot-content.png)
 
 Screenshots show an existing configured workspace. Displayed records are not bundled with the plugin.
+
+## 2.6.4
+
+Removed native calendar bridge and process execution. Backups now stay inside the vault. No Node.js filesystem access remains in the release. The plugin still scans vault records and may show other review recommendations.
+
+## 2.6.5
+
+Opening the cooperation archive in a fresh vault initializes an empty HTML archive and linked record from the bundled template. Existing archives are preserved. The archive location follows the current workspace root.
