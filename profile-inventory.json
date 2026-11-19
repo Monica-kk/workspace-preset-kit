@@ -1,5 +1,5 @@
 {
-  "version": "2.6.5",
+  "version": "2.6.6",
   "assets": [
     {
       "path": "Workspace/模板（系统）/脚本（HTML模板）.html",
@@ -201,5 +201,5 @@
     "graph.json",
     "hotkeys.json"
   ],
-  "desktopOnly": true
+  "desktopOnly": false
 }
