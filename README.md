@@ -2,7 +2,7 @@
 
 中文界面名称：自媒体工作台。
 
-A desktop Obsidian workspace with bundled blank report templates, database views, styles, and optional vault preferences.
+An Obsidian workspace for desktop, iPhone and iPad with bundled blank report templates, database views, styles, and optional vault preferences.
 
 ## Install
 
@@ -17,13 +17,13 @@ In the plugin settings, choose **安装资源** to add missing templates and vie
 - Seven optional settings groups, including the bundled module's keyboard shortcuts.
 - Journaled import and restore. Restore skips files changed after import.
 
-Global settings affect the entire vault. Configuration changes are opt-in. Installation does not synchronize devices. Install the package on each desktop and use a separate vault synchronization service for personal content.
+Global settings affect the entire vault. Configuration changes are opt-in. Installation does not synchronize devices. Install the package on each device and use a separate vault synchronization service for personal content.
 
 ## Privacy and external services
 
 The release contains generic source code, blank templates and sanitized preferences. It excludes private notes, business records, original attachments, drafts, backups, workspace history, calendar identifiers, credentials and local account configuration. The plugin has no bundled API keys or signed-in session. Normal editing is local. Optional AI features send the selected context to the provider you configure; optional video metadata retrieval contacts the source platform. Review the context before using these features.
 
-External system-calendar integration has been removed. Calendar entries are local vault records; editing or deleting a previously imported entry does not modify its original system-calendar event. The external script-assistant launcher has been removed; manual script editing remains available. This release remains desktop-only because report rendering still uses Node.js crypto and desktop external-link handling; mobile compatibility has not been verified. No guarantee of community-directory acceptance is made.
+External system-calendar integration has been removed. Calendar entries are local vault records; editing or deleting a previously imported entry does not modify its original system-calendar event. The external script-assistant launcher has been removed; manual script editing remains available. Mobile reports use browser image processing and platform-aware external links. iPad landscape retains a desktop-style sidebar; narrower windows use compact top navigation.
 
 ## File access and optional connections
 
@@ -58,3 +58,14 @@ Removed native calendar bridge and process execution. Backups now stay inside th
 ## 2.6.5
 
 Opening the cooperation archive in a fresh vault initializes an empty HTML archive and linked record from the bundled template. Existing archives are preserved. The archive location follows the current workspace root.
+
+## 2.6.6
+
+- Phone: horizontal top navigation, two-column cards, compact filters and action rows.
+- iPad landscape: desktop-style sidebar, adaptive cards and split-screen support.
+- Native back/forward restores filters, search and scroll position, with no added back button.
+- All report templates support continuous mobile reading and section anchors.
+- Navigation respects the status bar and native Obsidian header and scrolls away in narrow report pages.
+- Preserves cooperation archive initialization, vault-local backups and resource recovery.
+
+Verified with simulated phone/tablet viewports and native Obsidian history methods. Physical-device behavior may vary with the installed theme and Obsidian version.
