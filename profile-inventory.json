@@ -1,5 +1,5 @@
 {
-  "version": "2.6.6",
+  "version": "2.7.0",
   "assets": [
     {
       "path": "Workspace/模板（系统）/脚本（HTML模板）.html",
@@ -8,8 +8,8 @@
     },
     {
       "path": "Workspace/模板（系统）/视频拉片模板使用说明.md",
-      "bytes": 4539,
-      "sha256": "09d30d895ec7d6b79a93399650732531f69de4653994c0b31dfeee2d41f19500"
+      "bytes": 377,
+      "sha256": "7f97bd19a3e64e362237744343d1db1f241d023d43464cb466bb5fe1347adbf5"
     },
     {
       "path": "Workspace/模板（系统）/卖点（系统）.md",
@@ -23,8 +23,8 @@
     },
     {
       "path": "Workspace/模板（系统）/品牌报告模板使用说明.md",
-      "bytes": 2353,
-      "sha256": "470af9bd9a90a0639ea17841157b319165c0dd0684a9237680734e1b75591e07"
+      "bytes": 377,
+      "sha256": "725027e360b919e20f6d183f49eca02525ea2f25b8a9665677e7137a84fad1bc"
     },
     {
       "path": "Workspace/模板（系统）/总结（系统）.md",
@@ -53,13 +53,13 @@
     },
     {
       "path": "Workspace/模板（系统）/复盘报告模板使用说明.md",
-      "bytes": 775,
-      "sha256": "13a371a4a2f1684835e5dc9be78726e6aec9c0aa3438ac42ae4387ec8e28a200"
+      "bytes": 377,
+      "sha256": "16b9943935b472cf4db717e6f8935a0e9020225daecd33ab5647a9d4eed10d99"
     },
     {
       "path": "Workspace/模板（系统）/产品报告模板使用说明.md",
-      "bytes": 2073,
-      "sha256": "158b58cc6d8b06bfdc43eaabfcd63609a3025d7d9d2126c108b0d5bf9f493f56"
+      "bytes": 377,
+      "sha256": "03359c53e53a31f4ec4cb132d6a2d9bf82f35b4aa2914f01708011eb87f1aa8a"
     },
     {
       "path": "Workspace/模板（系统）/产品关联（系统）.md",
@@ -118,8 +118,8 @@
     },
     {
       "path": "Workspace/模板（系统）/脚本模板使用说明.md",
-      "bytes": 1616,
-      "sha256": "246a90534a632dcca32d19d5f041853a99d34383f29b1e8c45eb01f88ad803e6"
+      "bytes": 371,
+      "sha256": "b742dbb704ca1f81f351afc10416ead3fecb156b4e037782ab76632557882457"
     },
     {
       "path": "Workspace/模板（系统）/视频（系统）.md",
@@ -190,9 +190,19 @@
       "path": ".CONFIG_SNIPPET/workspace-notion.css",
       "bytes": 3571,
       "sha256": "529b0e61e24ff31bec997a32c0a8fed3b1e256b0499e4f39d419b3576b78204c"
+    },
+    {
+      "path": "Workspace/模板（系统）/技术调研（HTML模板）.html",
+      "bytes": 17895,
+      "sha256": "045ef201c8b8a5fc9f0ed3bb18474a2ee2568551981c862c163a9d0462ec0bd3"
+    },
+    {
+      "path": "Workspace/模板（系统）/旅行手记（HTML模板）.html",
+      "bytes": 17638,
+      "sha256": "120e025d22ec26b09fdbf59452fee6857d70247df251df5b159b434cca7136ee"
     }
   ],
-  "settingsFiles": [
+  "configs": [
     "app.json",
     "appearance.json",
     "core-plugins.json",
@@ -200,6 +210,5 @@
     "daily-notes.json",
     "graph.json",
     "hotkeys.json"
-  ],
-  "desktopOnly": false
+  ]
 }

@@ -13,7 +13,7 @@ In the plugin settings, choose **安装资源** to add missing templates and vie
 ## Included
 
 - A personal workbench with work and personal categories, structured records and report editing.
-- 38 blank resources: report templates, template documentation, database views, module configuration and a style snippet.
+- 40 blank resources: report templates, template documentation, database views, module configuration and a style snippet.
 - Seven optional settings groups, including the bundled module's keyboard shortcuts.
 - Journaled import and restore. Restore skips files changed after import.
 
@@ -45,9 +45,9 @@ JavaScript syntax and bundle loading were checked. In-memory adapter tests cover
 
 ![自媒体工作台首页与模块导航](./screenshot-home.png)
 
-### 创意内容库
+### 私人主页与标签笔记
 
-![创意内容库卡片与筛选](./screenshot-content.png)
+![私人主页与标签笔记](./screenshot-personal.png)
 
 Screenshots show an existing configured workspace. Displayed records are not bundled with the plugin.
 
@@ -69,3 +69,18 @@ Opening the cooperation archive in a fresh vault initializes an empty HTML archi
 - Preserves cooperation archive initialization, vault-local backups and resource recovery.
 
 Verified with simulated phone/tablet viewports and native Obsidian history methods. Physical-device behavior may vary with the installed theme and Obsidian version.
+
+
+## 2.7.0 — Work and personal notes
+
+- Unified work/personal navigation, editable notebook names, ordering and new notebooks.
+- Personal homepage with today's notes, future actions, tag filters and card/list views.
+- All Notes summary with statistics, search, notebook/tag filters and right-click organization: rename, move, tag, delete and restore.
+- Autosaved block editor with `/` and `//` insertion, selection formatting, text colors and highlights. New empty drafts are discarded on exit.
+- Paper White / Mist Blue palette; typography, spacing, cards and editing geometry stay fixed across palettes.
+- Replaceable work/personal covers, editable page titles and customizable icons.
+- Travel journals use an eight-section template; recent trips include related notes and reports.
+- API conversation, writing, optional web search/weather and save-as-note tools. External desktop-agent applications remain separate.
+- Preserves opt-in profile installation, edited-file protection, vault-local backups, archive initialization and native navigation history.
+
+The two previews above show the updated local workspace supplied by the author. Private titles have been obscured in the work preview; personal records are not included in the release. Cold-start color flashing remains under investigation. Physical iPhone/iPad testing is pending.

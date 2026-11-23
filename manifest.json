@@ -1,9 +1,9 @@
 {
   "id": "workspace-preset-kit",
   "name": "Qishen Creator Workbench",
-  "version": "2.6.6",
+  "version": "2.7.0",
   "minAppVersion": "1.14.0",
-  "description": "Organize content research, scripts, brand and product reports with bundled templates and optional vault settings.",
+  "description": "Work and personal dashboards, autosaved block notes, notebook organization, report templates and optional vault settings.",
   "author": "Workspace contributors",
   "isDesktopOnly": false
 }
